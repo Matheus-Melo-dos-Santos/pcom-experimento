@@ -16,7 +16,7 @@ for i=1:n
     ask=[ask sa0];
 end
 end
-subplot(211
+subplot(211)
 stairs(0:6,[b(1:6) b(6)],'linewidth',1.5)
 axis([0 n -0.5 1.5])
 title('Sinal Mensagem Binário');grid on
